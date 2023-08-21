@@ -1,24 +1,35 @@
-# README
+README
+What would PG say
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Description
 
-Things you may want to cover:
+This is a simple rails app that connects to a Llama 7B.
+I ingested all PG essays and finetuned a LLAMA 2 7B model.
 
-* Ruby version
+Installation
 
-* System dependencies
+To get started with the app, clone the repo and then install the needed gems:
+production
 
-* Configuration
+Next, migrate the database:
+migrate
 
-* Database creation
+Finally, run the test suite to verify that everything is working correctly:
+test
 
-* Database initialization
+If the test suite passes, you'll be ready to run the app in a local server:
+server
+Usage
 
-* How to run the test suite
+Explain how to use your application. What are the key features? How can users interact with it?
+Contributing
 
-* Services (job queues, cache servers, search engines, etc.)
+If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+Links
 
-* Deployment instructions
+- Project homepage:
+- Repository:
+- Issue tracker:
+Licensing
 
-* ...
+The code in this project is licensed under MIT license.
